@@ -1,0 +1,92 @@
+.loader {
+  color: white;
+  margin-left: 60px;
+  text-transform: uppercase;
+}
+
+.launches-container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.launch-details {
+  width: 46%;
+  margin: 10px;
+  background-color: #ffffffce;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.launch-details__misson-name {
+  text-transform: uppercase;
+}
+
+.launch-details__misson-date {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.launch-details__button {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  background-color: #2d419bfb;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.launch-details__button:hover {
+  background-color: #1e3085fb;
+}
+
+.launch-detail {
+  color: white;
+  padding-left: 60px;
+}
+
+.launch-detail span {
+  font-weight: 300;
+}
+
+.launch-detail h3 {
+  text-decoration: underline;
+}
+
+.launch-detail ul {
+  padding: 0;
+  list-style-type: none;
+  font-weight: 300;
+}
+
+.back-button {
+  padding: 10px 15px;
+  border-radius: 2px;
+  border: none;
+  background-color: #2d419bfb;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  cursor: pointer;
+  transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.back-button:hover {
+  background-color: #1e3085fb;
+}
+
+.success {
+  color: green;
+}
+
+.failure {
+  color: crimson;
+}
